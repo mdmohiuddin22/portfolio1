@@ -5,9 +5,9 @@ const Social = () => {
   return (
     <section className="fixed xl:bottom-40 xl:left-4 2xl:bottom-80 2xl:left-10 hidden lg:flex flex-col gap-3 z-20">
       <a
-        href="https://www.linkedin.com/in/pankajktech/"
+        href="https://www.linkedin.com/in/mdmohiuddinmmn"
         target="_blank"
-        className="rounded-full text-2xl bg-gray-600 bg-opacity-20 hover:bg-opacity-50 w-10 h-10 flex items-center justify-center"
+        className="rounded-full text-2xl bg-gray-600 bg-opacity-20 hover:bg-opacity-50 w-10 h-10 flex items-center justify-center" rel="noreferrer"
       >
         <Tooltip content="Connect On Linkedin" placement="right">
           <img
@@ -17,9 +17,9 @@ const Social = () => {
         </Tooltip>
       </a>
       <a
-        href="https://github.com/pankajktech"
+        href="https://github.com/mdmohiuddin22"
         target="_blank"
-        className="rounded-full text-2xl bg-gray-600 bg-opacity-20 hover:bg-opacity-50 w-10 h-10 flex items-center justify-center"
+        className="rounded-full text-2xl bg-gray-600 bg-opacity-20 hover:bg-opacity-50 w-10 h-10 flex items-center justify-center" rel="noreferrer"
       >
         <Tooltip content="Connect On Github" placement="right">
           <img
@@ -29,9 +29,9 @@ const Social = () => {
         </Tooltip>
       </a>
       <a
-        href="https://twitter.com/pankajktech1"
+        href="https://twitter.com/mdmohiuddinmmn"
         target="_blank"
-        className="rounded-full text-2xl bg-gray-600 bg-opacity-20 hover:bg-opacity-50 w-10 h-10 flex items-center justify-center"
+        className="rounded-full text-2xl bg-gray-600 bg-opacity-20 hover:bg-opacity-50 w-10 h-10 flex items-center justify-center" rel="noreferrer"
       >
         <Tooltip content="Follow On Twitter" placement="right">
           <img
@@ -41,9 +41,9 @@ const Social = () => {
         </Tooltip>
       </a>
       <a
-        href="mailto:tunewithpk@gmail.com"
+        href="mailto:mdmohiuddinmmn@gmail.com"
         target="_blank"
-        className="rounded-full text-2xl bg-gray-600 bg-opacity-20 hover:bg-opacity-50 w-10 h-10 flex items-center justify-center"
+        className="rounded-full text-2xl bg-gray-600 bg-opacity-20 hover:bg-opacity-50 w-10 h-10 flex items-center justify-center" rel="noreferrer"
       >
         <Tooltip content="Mail Us" placement="right">
           <span>

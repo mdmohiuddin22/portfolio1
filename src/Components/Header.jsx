@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 import { Navbar, Collapse, Button, IconButton } from "@material-tailwind/react";
-import logo from "../assets/about.webp";
+// import logo from "../assets/about.webp";
 
 const Header = () => {
   const [openNav, setOpenNav] = useState(false);
@@ -40,7 +40,7 @@ const Header = () => {
         <div className="flex items-center justify-around text-blue-gray-900">
           <Link to={"/"}>
             <img
-              src={logo}
+              src="https://i.ibb.co/pzmw6dz/me.jpg"
               alt="logo"
               className="h-10 w-10 hover:opacity-70  duration-300 rounded-full"
             />

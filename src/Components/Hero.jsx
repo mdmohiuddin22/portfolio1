@@ -1,7 +1,7 @@
-import React from "react";
+
 import { motion } from "framer-motion";
 
-import PPic from "../assets/about.webp";
+// import PPic from "../assets/about.webp";
 import { Button } from "@material-tailwind/react";
 import { Link } from "react-router-dom";
 import wavingHand from "../assets/waving-hand.gif";
@@ -29,14 +29,14 @@ const Hero = () => {
         <p className="text-3xl md:text-5xl font-bold relative">
           I'm
           <span className="text-light-blue-500 ml-1 uppercase">
-            Pankaj Kumar
+            Md Mohiuddin
           </span>
         </p>
         <p className="text-xl font-semibold relative uppercase">
           MERN Stack Web Developer
         </p>
         <p className="text-lg md:text-xl font-medium relative">
-          I'm a Full Stack Developer based in India. I have a passion for web
+          I'm a Full Stack Developer . I have a passion for web
           development and love to create for web apps.
         </p>
 
@@ -52,7 +52,7 @@ const Hero = () => {
             </Button>
           </Link>
           <Link
-            to="https://drive.google.com/file/d/1Yd3Z6GO8-vxHOldYckjj42sf8mjP2SgP/view?usp=sharing"
+            to="https://drive.google.com/file/d/15v5sGx37P07Q-zHo4nrw46zNhd9CySni/view?usp=sharing"
             target="_blank"
           >
             <Button
@@ -73,7 +73,7 @@ const Hero = () => {
         className="relative"
       >
         <img
-          src={PPic}
+          src="https://i.ibb.co/pzmw6dz/me.jpg"
           alt="Pankaj Kumar"
           className="w-44 md:w-80 z-10 rounded-full"
         />

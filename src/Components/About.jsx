@@ -1,5 +1,5 @@
 import React from "react";
-import PPic from "../assets/about.webp";
+// import PPic from "../assets/about.webp";
 import { motion } from "framer-motion";
 import { Button, Typography } from "@material-tailwind/react";
 import { Link } from "react-router-dom";
@@ -16,7 +16,8 @@ const About = () => {
           className="flex flex-col items-center md:h-60"
         >
           <img
-            src={PPic}
+            // src={PPic}
+            src="https://i.ibb.co/pzmw6dz/me.jpg"
             alt="Image"
             className="h-40 md:h-72 md:-mt-20 z-10 shadow-xl drop-shadow rounded-full my-5"
           />
@@ -54,23 +55,21 @@ const About = () => {
           <br />
           <br />
           My educational background includes a Bachelor of Engineering degree in
-          Computer Engineering from Marwadi Education Foundation's Group of
-          Institutions, Rajkot.
+          Computer & Sceince Engineering from German University Bangladesh.
           <br />
           <br />I have experience working as a
           <span className=" font-semibold mx-2 decoration-light-blue-600">
-            Full Stack Web Developer Intern
+            Full Stack Web Developer 
           </span>
-          at Innomatics Research Labs where I developed web applications using
-          React.JS, Node.JS, Express JS, and MongoDB. During my time at
-          Innomatics, I also used Redux to develop scalable applications. My
+           I developed web applications using
+          React.JS, Node.JS, Express JS, and MongoDB. I also used Redux to develop scalable applications. My
           skills include proficiency in HTML, CSS, JavaScript, React, Redux,
           Tailwind CSS, Node.JS, Express.JS, MongoDB, Git, Github, Visual Studio
           Code, Netlify, and Vercel.
           <br />
           <br />I have completed various projects, including
           <span className="font-semibold mx-2 decoration-light-blue-600">
-            a job portal, article summarizer, and notes web application,
+            a Learning School, Toys Market, and Khabar Ghor Recipes web application,
           </span>
           which demonstrate my technical expertise and attention to detail.
           <br />

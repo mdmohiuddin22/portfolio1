@@ -16,7 +16,7 @@ const WorkExp = () => {
         <TimelineItem>
           <TimelineConnector />
           <TimelineHeader>
-            <TimelineIcon className="p-0 hover:scale-105 duration-200">
+            {/* <TimelineIcon className="p-0 hover:scale-105 duration-200">
               <a href="https://gssoc.girlscript.tech/" target="_blank">
                 <Avatar
                   size="lg"
@@ -24,28 +24,28 @@ const WorkExp = () => {
                   alt="GSSOC Logo"
                 />
               </a>
-            </TimelineIcon>
-            <div className="flex flex-col">
+            </TimelineIcon> */}
+            {/* <div className="flex flex-col">
               <Typography variant="h5" color="blue-gray">
                 GirlScript Summer of Code 2023
               </Typography>
               <Typography className=" my-2" color="gray">
                 Open Source Contributor <br /> May 2023 - Present
               </Typography>
-            </div>
+            </div> */}
           </TimelineHeader>
           <TimelineBody className="pb-8">
-            <ul color="gary" className="list-disc font-sans ml-5 text-gray-800">
+            {/* <ul color="gary" className="list-disc font-sans ml-5 text-gray-800">
               <li>Contributed to various open source projects.</li>
               <li>Coded in React, Node.js, Express.js, MongoDB.</li>
               <li>Connected with mentors and other contributors</li>
-            </ul>
+            </ul> */}
           </TimelineBody>
         </TimelineItem>
         <TimelineItem>
           <TimelineConnector />
           <TimelineHeader>
-            <TimelineIcon className="p-0 hover:scale-105 duration-200">
+            {/* <TimelineIcon className="p-0 hover:scale-105 duration-200">
               <a href="https://www.innomatics.in/" target="_blank">
                 <Avatar
                   size="lg"
@@ -53,22 +53,22 @@ const WorkExp = () => {
                   alt="user 1"
                 />
               </a>
-            </TimelineIcon>
-            <div className="flex flex-col">
+            </TimelineIcon> */}
+            {/* <div className="flex flex-col">
               <Typography variant="h5" color="blue-gray">
                 Innomatics Research Labs
               </Typography>
               <Typography className=" my-2" color="gray">
                 Full Stack Web Developer Intern <br /> Feb 2023 - April 2023
               </Typography>
-            </div>
+            </div> */}
           </TimelineHeader>
-          <TimelineBody className="pb-8">
+          {/* <TimelineBody className="pb-8">
             <ul color="gary" className="list-disc font-sans ml-5 text-gray-800">
               <li>Worked on various projects using MERN stack.</li>
               <li>Developed Application Using Redux.</li>
             </ul>
-          </TimelineBody>
+          </TimelineBody> */}
         </TimelineItem>
       </Timeline>
     </div>
